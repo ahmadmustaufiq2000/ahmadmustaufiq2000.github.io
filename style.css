@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #f5f5f5;
+    overflow-x: hidden;
+}
+
+audio {
+    display: none;
+}
+
+.container {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.open {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 300px;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    color: #ff4081;
+}
+
+.card img.mail {
+    width: 100px;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.atas {
+    display: none;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.atas img {
+    width: 200px;
+}
+
+.atas h2 {
+    margin-top: 15px;
+    font-size: 22px;
+    color: #ff4081;
+}
+
+.message {
+    margin-top: 20px;
+}
+
+.message p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.material-icons-sharp {
+    color: #ff4081;
+    font-size: 32px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.material-icons-sharp:hover {
+    transform: scale(1.2);
+}
+
+[data-aos="zoom-in"] {
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+[data-aos="zoom-in"].aos-animate {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 0.4s, transform 0.4s;
+}
+
+.hidden {
+    display: none;
+}
